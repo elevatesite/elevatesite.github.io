@@ -1,0 +1,104 @@
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+  .body {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .below {
+    background:#1d2951;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  .below3 {
+    background:#ff2a41;;
+  }
+  .below2 {
+  background: #42bddf;
+  }
+    .below22 {
+  background: #f8a933;
+  }
+.below4{
+  background: url("AboutKyfinal.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  margin-top: -390px;
+}
+.container {
+  padding: 0 16px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 20px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+  p{
+    font-size: 20px;
+    line-height: 1.1;
+    font-family: "Benton Sans";
+  }
+
+  h2{
+    text-align: center;
+  }
+ 
+img {
+  float: left;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+.newspaper {
+  column-count: 3;
+  padding-left: 125px;
+}

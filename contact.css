@@ -1,0 +1,66 @@
+.header {
+		height: 250px;
+
+	}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+	.body {
+		padding-top: 30px;
+		padding-bottom: 15px;
+		width: 100vw;
+		overflow-x: hidden;
+	}
+
+	.below {
+		background:#1d2951;
+		padding-top: 30px;
+		padding-bottom: 15px;
+	}
+
+	.below2 {
+		background:#f8a933;
+		padding-top: 30px;
+		padding-bottom: 15px;
+	}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 900px;
+  padding-bottom: 675px;
+  overflow: hidden;
+  font-size: 25px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+	
+	h1{
+		font-size: 120px;
+		text-align: center;
+		margin-right: -750px;
+		top: 400px;
+		font-family: "Benton Sans";
+	}
+	p{
+		font-size: 20px;
+		line-height: 1.1;
+		font-family: "Benton Sans";
+	}
